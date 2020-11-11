@@ -1,0 +1,1 @@
+# dependency-checking-modules-foo
