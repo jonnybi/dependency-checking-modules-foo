@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: module-foo.dll
-        path: Foo/bin/release/netcore3.1/Foo.dll
+        path: Foo/bin/release/netcoreapp3.1/Foo.dll
