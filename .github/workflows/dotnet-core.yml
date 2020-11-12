@@ -30,3 +30,9 @@ jobs:
     
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+      
+    - name: Archive dll
+      uses: actions/upload-artifact@v2
+      with:
+        name: module-foo.dll
+        path: Foo/bin/release/netcore3.1/Foo.dll
